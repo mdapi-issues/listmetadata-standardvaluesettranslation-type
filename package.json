@@ -1,10 +1,10 @@
 {
-  "name": "PROJECT_NAME",
-  "description": "Minimal working example to demonstrate a bug in DESCRIPTION",
+  "name": "listmetadata-standardvaluesettranslation-type",
+  "description": "Minimal working example to demonstrate a bug in listMetadata where the FileProperties for StandardValueSetTranslation have a broken type property",
   "private": true,
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
-  "bugs": "https://github.com/mdapi-issues/PROJECT_NAME/issues",
+  "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
   "dependencies": {
     "@salesforce/command": "3.0.5",
     "@salesforce/core": "2.15.2",
@@ -30,7 +30,7 @@
     "node": ">=8.0.0"
   },
   "files": [],
-  "homepage": "https://github.com/mdapi-issues/PROJECT_NAME",
+  "homepage": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "keywords": [
     "salesforce",
     "mdapi-issue",
@@ -38,7 +38,7 @@
     "MWE"
   ],
   "license": "MIT",
-  "repository": "mdapi-issues/PROJECT_NAME",
+  "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "scripts": {
     "build": "rm -rf lib && tsc -b",
     "develop": "bash scripts/develop.sh",
