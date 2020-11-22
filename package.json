@@ -26,7 +26,9 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "files": [],
+  "files": [
+    "/lib"
+  ],
   "homepage": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "keywords": [
     "salesforce",
@@ -35,6 +37,7 @@
     "MWE"
   ],
   "license": "MIT",
+  "main": "/lib/workaround.js",
   "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "scripts": {
     "build": "rm -rf lib && tsc -b",
