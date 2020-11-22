@@ -1,4 +1,4 @@
-import { DescribeMetadataResult, FileProperties } from 'jsforce';
+import type { DescribeMetadataResult, FileProperties } from 'jsforce';
 
 export function fixNilType(
   fileProperties: Array<FileProperties>,

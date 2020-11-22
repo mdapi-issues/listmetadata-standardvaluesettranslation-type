@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import listStandardValuSetTranslations from '../src/issue';
+import listStandardValuSetTranslations from './issue';
 
 describe('listMetadata', function () {
   this.slow(5000);
