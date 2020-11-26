@@ -1,7 +1,6 @@
 {
   "name": "@mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "description": "Minimal working example to demonstrate a bug in listMetadata where the FileProperties for StandardValueSetTranslation have a broken type property",
-  "private": true,
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
@@ -38,6 +37,14 @@
   ],
   "license": "MIT",
   "main": "/lib/workaround.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "scripts": {
     "build": "rm -rf lib && tsc -b",
