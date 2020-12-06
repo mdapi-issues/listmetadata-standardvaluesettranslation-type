@@ -5,7 +5,7 @@
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
   "dependencies": {
-    "@salesforce/core": "2.15.2",
+    "@salesforce/core": "2.15.3",
     "tslib": "2.0.3"
   },
   "devDependencies": {
