@@ -15,7 +15,7 @@
     "@typescript-eslint/parser": "4.9.1",
     "chai": "4.2.0",
     "eslint": "7.15.0",
-    "eslint-config-prettier": "7.0.0",
+    "eslint-config-prettier": "7.2.0",
     "mocha": "8.2.1",
     "prettier": "2.2.1",
     "sfdx-cli": "7.82.0",
