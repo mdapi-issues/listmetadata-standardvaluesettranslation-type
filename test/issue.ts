@@ -1,11 +1,8 @@
-import { Org } from '@salesforce/core';
-import { FileProperties } from 'jsforce';
+import type { Connection, FileProperties } from 'jsforce';
 
-export default async function listStandardValuSetTranslations(): Promise<
-  Array<FileProperties>
-> {
-  const org = await Org.create({});
-  const conn = org.getConnection();
+export default async function listStandardValuSetTranslations(
+  conn: Connection
+): Promise<Array<FileProperties>> {
   let fileProperties = await conn.metadata.list({
     type: 'StandardValueSetTranslation'
   });
