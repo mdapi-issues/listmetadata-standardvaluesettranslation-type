@@ -4,9 +4,7 @@
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
-  "dependencies": {
-    "tslib": "2.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@salesforce/core": "*",
     "@types/chai": "4.2.15",
