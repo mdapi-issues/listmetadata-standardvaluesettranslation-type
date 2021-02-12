@@ -5,10 +5,10 @@
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
   "dependencies": {
-    "@salesforce/core": "2.18.4",
     "tslib": "2.1.0"
   },
   "devDependencies": {
+    "@salesforce/core": "*",
     "@types/chai": "4.2.15",
     "@types/mocha": "8.2.0",
     "@typescript-eslint/eslint-plugin": "4.15.0",
@@ -16,6 +16,7 @@
     "chai": "4.3.0",
     "eslint": "7.19.0",
     "eslint-config-prettier": "7.2.0",
+    "jsforce": "*",
     "mocha": "8.3.0",
     "prettier": "2.2.1",
     "sfdx-cli": "7.86.3",
