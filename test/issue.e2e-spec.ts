@@ -1,6 +1,6 @@
 import { Org } from '@salesforce/core';
 import { expect } from 'chai';
-import listStandardValuSetTranslations from './issue';
+import { listStandardValuSetTranslations } from './issue';
 
 describe('listMetadata', function () {
   this.slow(5000);
