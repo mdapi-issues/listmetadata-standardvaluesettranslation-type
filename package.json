@@ -25,7 +25,7 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/lib"
+    "./lib"
   ],
   "homepage": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "keywords": [
@@ -35,7 +35,7 @@
     "MWE"
   ],
   "license": "MIT",
-  "main": "/lib/workaround.js",
+  "main": "./lib/workaround.js",
   "publishConfig": {
     "access": "public"
   },

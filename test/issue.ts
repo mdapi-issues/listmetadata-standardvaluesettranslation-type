@@ -1,6 +1,6 @@
 import type { Connection, FileProperties } from 'jsforce';
 
-export default async function listStandardValuSetTranslations(
+export async function listStandardValuSetTranslations(
   conn: Connection
 ): Promise<Array<FileProperties>> {
   let fileProperties = await conn.metadata.list({
