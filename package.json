@@ -25,7 +25,7 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "./lib"
+    "/lib"
   ],
   "homepage": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "keywords": [
