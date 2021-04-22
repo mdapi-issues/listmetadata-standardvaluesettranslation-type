@@ -7,11 +7,11 @@
   "dependencies": {},
   "devDependencies": {
     "@salesforce/core": "*",
-    "@types/chai": "4.2.15",
+    "@types/chai": "4.2.16",
     "@types/mocha": "8.2.2",
     "@typescript-eslint/eslint-plugin": "4.15.1",
     "@typescript-eslint/parser": "4.15.1",
-    "chai": "4.3.0",
+    "chai": "4.3.4",
     "eslint": "7.20.0",
     "eslint-config-prettier": "7.2.0",
     "jsforce": "*",
