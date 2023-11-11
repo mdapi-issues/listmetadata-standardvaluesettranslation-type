@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn install
-          yarn global add sfdx-cli
+          yarn global add @salesforce/cli
       - name: Run unit tests
         run: yarn test
       - name: Authenticate DevHub and create scratch org
