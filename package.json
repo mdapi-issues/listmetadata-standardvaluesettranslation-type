@@ -6,7 +6,7 @@
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
   "dependencies": {},
   "devDependencies": {
-    "@salesforce/core": "5.3.20",
+    "@salesforce/core": "6.7.6",
     "@types/chai": "4.3.10",
     "@types/mocha": "10.0.4",
     "chai": "4.3.10",
