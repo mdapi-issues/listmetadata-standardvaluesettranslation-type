@@ -9,19 +9,19 @@
 Create a scratch org with the Translation Workbench enabled
 
 ```console
-sfdx force:org:create -f config/project-scratch-def.json -s
+sf org create scratch -f config/project-scratch-def.json --set-default
 ```
 
 push some translation for a StandardValueSet (here: `StandardValueSetTranslation:LeadSource-de`)
 
 ```console
-sfdx force:source:push
+sf project deploy start
 ```
 
 list StandardValueSetTranslations using `listMetadata`
 
 ```console
-sfdx force:mdapi:listmetadata -m StandardValueSetTranslation
+sf org list metadata -m StandardValueSetTranslation
 ```
 
 ```diff
