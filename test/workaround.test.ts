@@ -1,7 +1,10 @@
 import { expect } from "chai";
-import { promises } from "fs";
-import { join } from "path";
-import { fixNilType } from "../src/workaround";
+import { promises } from "node:fs";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { fixNilType } from "../src/workaround.js";
+
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 describe("workaround", function () {
   let expected, describeMetadataResult;

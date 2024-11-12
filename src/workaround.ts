@@ -1,7 +1,7 @@
 import type {
   DescribeMetadataResult,
   FileProperties,
-} from "jsforce/api/metadata";
+} from "@jsforce/jsforce-node/lib/api/metadata.js";
 
 export function fixNilType(
   fileProperties: Array<FileProperties>,

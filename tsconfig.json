@@ -1,15 +1,9 @@
 {
+  "extends": "@salesforce/dev-config/tsconfig-esm.json",
   "compilerOptions": {
     "outDir": "lib",
-    "module": "commonjs",
-    "target": "es2020",
-    "lib": ["es2020"],
-    "sourceMap": true,
-    "declaration": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true
+    "rootDir": "src",
+    "skipLibCheck": true
   },
   "include": ["./src/**/*.ts"]
 }
