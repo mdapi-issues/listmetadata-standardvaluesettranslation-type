@@ -4,18 +4,11 @@
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
+  "type": "module",
   "dependencies": {},
   "devDependencies": {
-    "@salesforce/core": "5.3.20",
-    "@types/chai": "4.3.20",
-    "@types/mocha": "10.0.9",
-    "chai": "4.5.0",
-    "mocha": "10.8.2",
-    "ts-node": "10.9.2",
-    "typescript": "5.6.3"
-  },
-  "engines": {
-    "node": ">=14.16"
+    "@salesforce/core": "8.6.4",
+    "@salesforce/dev-scripts": "10.2.10"
   },
   "files": [
     "/lib"
@@ -28,7 +21,7 @@
     "MWE"
   ],
   "license": "MIT",
-  "main": "./lib/workaround.js",
+  "exports": "./lib/workaround.js",
   "publishConfig": {
     "access": "public"
   },
@@ -37,13 +30,17 @@
       "main"
     ]
   },
+  "mocha": {
+    "loader": "ts-node/esm",
+    "no-warnings": "ExperimentalWarning"
+  },
   "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
   "scripts": {
     "build": "rm -rf lib && tsc -b",
     "develop": "bash scripts/develop.sh",
-    "prepack": "yarn build",
-    "prepare": "yarn build",
-    "test": "mocha --require ts-node/register \"test/**/*.test.ts\"",
-    "test:e2e": "mocha --require ts-node/register \"test/**/*.e2e-spec.ts\""
+    "prepack": "npm run build",
+    "prepare": "npm run build",
+    "test": "mocha \"test/**/*.test.ts\"",
+    "test:e2e": "mocha \"test/**/*.e2e-spec.ts\""
   }
 }
