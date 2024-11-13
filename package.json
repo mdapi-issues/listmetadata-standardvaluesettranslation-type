@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {},
   "devDependencies": {
-    "@salesforce/core": "8.6.4",
+    "@salesforce/core": "8.7.0",
     "@salesforce/dev-scripts": "10.2.10"
   },
   "files": [
