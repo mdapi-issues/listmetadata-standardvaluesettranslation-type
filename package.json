@@ -1,40 +1,21 @@
 {
   "name": "@mdapi-issues/listmetadata-standardvaluesettranslation-type",
-  "description": "Minimal working example to demonstrate a bug in listMetadata where the FileProperties for StandardValueSetTranslation have a broken type property",
   "version": "0.0.0-development",
-  "author": "Matthias Rolke @amtrack",
-  "bugs": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type/issues",
-  "type": "module",
-  "dependencies": {},
-  "devDependencies": {
-    "@salesforce/core": "8.14.0",
-    "@salesforce/dev-scripts": "11.0.2"
-  },
-  "files": [
-    "/lib"
-  ],
-  "homepage": "https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type",
+  "description": "Minimal working example to demonstrate a bug in listMetadata where the FileProperties for StandardValueSetTranslation have a broken type property",
   "keywords": [
     "salesforce",
     "mdapi-issue",
     "minimum-working-example",
     "MWE"
   ],
-  "license": "MIT",
-  "exports": "./lib/workaround.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ]
-  },
-  "mocha": {
-    "loader": "ts-node/esm",
-    "no-warnings": "ExperimentalWarning"
-  },
   "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
+  "license": "MIT",
+  "author": "Matthias Rolke @amtrack",
+  "type": "module",
+  "exports": "./lib/workaround.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "build": "rm -rf lib && tsc -b",
     "develop": "bash scripts/develop.sh",
@@ -42,5 +23,17 @@
     "prepare": "npm run build",
     "test": "mocha \"test/**/*.test.ts\"",
     "test:e2e": "mocha \"test/**/*.e2e-spec.ts\""
+  },
+  "mocha": {
+    "loader": "ts-node/esm",
+    "no-warnings": "ExperimentalWarning"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@salesforce/core": "8.14.0",
+    "@salesforce/dev-scripts": "11.0.2"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
