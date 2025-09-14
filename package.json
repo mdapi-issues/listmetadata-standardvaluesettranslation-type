@@ -30,7 +30,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@salesforce/core": "8.14.0",
+    "@salesforce/core": "8.23.1",
     "@salesforce/dev-scripts": "11.0.4"
   },
   "publishConfig": {
