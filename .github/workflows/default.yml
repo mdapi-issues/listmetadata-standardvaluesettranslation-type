@@ -19,8 +19,8 @@ jobs:
           node-version-file: .node-version
       - name: Install dependencies
         run: |
-          npm ci
-          npm install --global @salesforce/cli
+          npm ci --ignore-scripts
+          npm install --ignore-scripts --global @salesforce/cli
       - name: Run unit tests
         run: npm run test
       - name: Authenticate DevHub and create scratch org
@@ -50,9 +50,10 @@ jobs:
         with:
           node-version-file: .node-version
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
       - name: Release package
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          npm_config_ignore_scripts: true
