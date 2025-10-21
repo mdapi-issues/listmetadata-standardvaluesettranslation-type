@@ -32,8 +32,5 @@
   "devDependencies": {
     "@salesforce/core": "8.23.1",
     "@salesforce/dev-scripts": "11.0.4"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }
