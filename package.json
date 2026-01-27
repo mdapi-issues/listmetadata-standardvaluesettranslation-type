@@ -8,7 +8,10 @@
     "minimum-working-example",
     "MWE"
   ],
-  "repository": "mdapi-issues/listmetadata-standardvaluesettranslation-type",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdapi-issues/listmetadata-standardvaluesettranslation-type.git"
+  },
   "license": "MIT",
   "author": "Matthias Rolke @amtrack",
   "type": "module",
