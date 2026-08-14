@@ -34,6 +34,6 @@
   "dependencies": {},
   "devDependencies": {
     "@salesforce/core": "8.32.4",
-    "@salesforce/dev-scripts": "11.0.4"
+    "@salesforce/dev-scripts": "13.0.2"
   }
 }
