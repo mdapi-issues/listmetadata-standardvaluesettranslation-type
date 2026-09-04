@@ -33,7 +33,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@salesforce/core": "9.1.2",
+    "@salesforce/core": "9.1.10",
     "@salesforce/dev-scripts": "13.0.2"
   }
 }
